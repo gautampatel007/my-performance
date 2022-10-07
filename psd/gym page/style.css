@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+
+    /* background-repeat: no-repeat; */
+}
+.container{
+background-image:url("./img/bg-img.jpg");
+height: 500px;
+    width: 1070px;
+    margin:0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+}
+.align {
+    align-items: center;
+}
+.justify {
+    justify-content: space-between;
+}
+.list {
+    padding-bottom: 50px;
+}
+.list ul li  {
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: oswald;
+
+}
+.list ul li a:hover {
+    /* color: blue; */
+    color:rgba(0, 187, 255, 0.575);
+}
+.list ul li a {
+    color: white;
+}
+.btn button {
+    font-family: oswald;
+    margin: 0px 20px 50px 0px;
+    padding: 0px 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn1 button:hover {
+    background-color:rgba(0, 187, 255, 0.575); 
+}
+.btn  button:hover {
+    background-color:rgba(0, 187, 255, 0.575); 
+}
+@font-face {
+    font-family: oswald;
+    src: url(./Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+.logo {
+    color: white;
+    font-family: oswald;
+}
+.logo img {
+    width: 100px;
+}
+.logo h2 {
+    font-size: 18px;
+    padding: 4px 10px;
+}
+.title {
+    padding: 90px 0px 0px 90px ;
+}
+.title h2 {
+    color: white;
+    font-family: montserrat;
+}
+
+.form input {
+    text-align: center;
+    margin: 8px 0px;
+    font-family: montserrat;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.form input:hover {
+background-color: rgba(0, 187, 255, 0.575); 
+} 
+
+.btn1{
+    text-align: center;
+
+}
+.btn1 button{
+    border-radius: 5px;
+    padding: 0px 40px;
+    font-family: oswald;
+    margin: 0px 20px;
+    border: 2px solid black;
+}
